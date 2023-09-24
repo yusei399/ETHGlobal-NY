@@ -8,6 +8,7 @@ export default function Home() {
     name: 'John',
     image : '/person1.png',
     sex : 'male',
+    color : "blue.500",
   }
 
   const person2 = {
@@ -15,6 +16,7 @@ export default function Home() {
     name: 'Mary',
     image : '/person1.png',
     sex : 'female',
+    color : "pink.500",
   }
 
   return (

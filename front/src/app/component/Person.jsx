@@ -26,8 +26,7 @@ const Person = (props) => {
 
   return (
     <>
-		<Card width={400} height={200}>
-		{/* 詳細ボタンが押されたときに表示するコンテンツ */}
+		<Card width={400} height={200} bg={prop.color}>
 		{showImage ? (
 				<div style={imageContainerStyle}>
 					<Image src={prop.image} alt={prop.name} width={200} height={200} />
