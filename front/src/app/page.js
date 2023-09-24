@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Person from './component/Person'
 import { ChakraProvider } from "@chakra-ui/react"
 import { Flex } from "@chakra-ui/react"
