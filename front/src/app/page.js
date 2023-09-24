@@ -23,10 +23,18 @@ export default function Home() {
     <>
       <div>
         <ChakraProvider>
-          <Flex justifyContent="center" alignItems="center" height="100vh">
-            <Person person={person1}/>
+          <Flex justifyContent="center" alignItems="center" height="100vh" >
+            <Person person={person1} marginRight={4}/>
+            <Person person={person2}/>
           </Flex>
-          <Person person={person2}/>
+          <Flex justifyContent="center" alignItems="center" height="100vh">
+            <Person person={person1} />
+            <Person person={person2}/>
+          </Flex>
+          <Flex justifyContent="center" alignItems="center" height="100vh">
+            <Person person={person1} />
+            <Person person={person2}/>
+          </Flex>
         </ChakraProvider>
       </div>
     </>
